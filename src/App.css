@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Benne', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    border: 5px solid black;
+    background: yellow;
+    border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#mainList {
+    background-color:darkkhaki;
+    list-style-type: none;
+    border: 2px solid black;
+    font-size: 30px;
+    margin: 70px 0;
+    position: absolute;
+    top: -15%;
+    left: -55%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: red;
 }
 
-.App-link {
-  color: #61dafb;
+#nameLabel,
+#contactLabel {
+    font-size: 30px;
+    letter-spacing: 6px;
+    display: block;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+input {
+    padding: .5em;
+    border: 0;
 }
+
+input[type=text]{
+    width: 50%;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.06);
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+input[type=submit]{
+    position: absolute;
+    top: 67%;
+    left: 25%;
+    width: 50%;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.06);
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: red;
+    color: yellow;
+    font-size: 15px;
+}
+
+
+
+
