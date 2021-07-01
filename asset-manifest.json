@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simple-address-book/static/css/main.70f98cb0.chunk.css",
+    "main.js": "/simple-address-book/static/js/main.a32eb760.chunk.js",
+    "main.js.map": "/simple-address-book/static/js/main.a32eb760.chunk.js.map",
+    "runtime-main.js": "/simple-address-book/static/js/runtime-main.52be81e3.js",
+    "runtime-main.js.map": "/simple-address-book/static/js/runtime-main.52be81e3.js.map",
+    "static/js/2.aba77fa8.chunk.js": "/simple-address-book/static/js/2.aba77fa8.chunk.js",
+    "static/js/2.aba77fa8.chunk.js.map": "/simple-address-book/static/js/2.aba77fa8.chunk.js.map",
+    "static/js/3.4f0b314b.chunk.js": "/simple-address-book/static/js/3.4f0b314b.chunk.js",
+    "static/js/3.4f0b314b.chunk.js.map": "/simple-address-book/static/js/3.4f0b314b.chunk.js.map",
+    "index.html": "/simple-address-book/index.html",
+    "static/css/main.70f98cb0.chunk.css.map": "/simple-address-book/static/css/main.70f98cb0.chunk.css.map",
+    "static/js/2.aba77fa8.chunk.js.LICENSE.txt": "/simple-address-book/static/js/2.aba77fa8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52be81e3.js",
+    "static/js/2.aba77fa8.chunk.js",
+    "static/css/main.70f98cb0.chunk.css",
+    "static/js/main.a32eb760.chunk.js"
+  ]
+}
